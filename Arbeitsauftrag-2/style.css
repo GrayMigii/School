@@ -22,6 +22,16 @@ p {
     margin-right: 10px;
 }
 
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+a:active {
+    color: blue;
+}
+
+
 img {
     height: 447px;
     width: 640px; 
