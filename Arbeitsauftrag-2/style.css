@@ -10,6 +10,7 @@ h1 {
 
 p {
     font-size: 20px;
+    margin: 0px 0px 10px;
 }
 
 .links {
@@ -35,4 +36,10 @@ img {
     height: 447px;
     width: 640px; 
     border-radius: 12px;
+}
+
+.wrapper {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 10px;
 }
