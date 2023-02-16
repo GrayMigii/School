@@ -10,22 +10,13 @@ h1 {
 
 p {
     font-size: 20px;
-    margin: 0px 0px 10px;
-}
-
-.links {
-    display: inline;
-    padding: 1px 4px;
-    background-color: white;
-    font-weight: bold;
-    border: solid 2px black;
-    border-radius: 3px;
-    margin-right: 10px;
+    margin: 0px;
 }
 
 a {
     text-decoration-line: none;
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 
 a:active {
@@ -39,7 +30,26 @@ img {
 }
 
 .wrapper {
-    background-color: blanchedalmond;
+    background-color: cadetblue;
     border-radius: 10px;
     padding: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav > div {
+    padding: 12px 5px;
+    border-radius: 5px;
+}
+
+.nav > div:hover {
+    background-color: rgb(38, 110, 112);
 }
