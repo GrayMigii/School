@@ -1,3 +1,8 @@
+:root {
+    --primary-green: cadetblue;
+    --secondary-green: rgb(38, 110, 112);
+}
+
 body {
     padding: 20px;
     font-family: verdana;
@@ -39,13 +44,13 @@ img {
 .footer {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(38, 110, 112);
+    background-color: var(--secondary-green);
 }
 
 .nav {
     display: flex;
     gap: 20px;    
-    background-color: rgb(38, 110, 112);
+    background-color:var(--secondary-green);
 }
 
 .nav > div {
@@ -54,7 +59,7 @@ img {
 }
 
 .nav > div:hover {
-    background-color: cadetblue;
+    background-color: var(--primary-green);
 }
 
 .nav{
