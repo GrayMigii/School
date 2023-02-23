@@ -1,6 +1,7 @@
 :root {
     --primary-green: cadetblue;
     --secondary-green: rgb(38, 110, 112);
+    --tertiary-green: rgb(14, 85, 86);
 }
 
 body {
@@ -33,6 +34,11 @@ img {
     height: 447px;
     width: 640px; 
     border-radius: 12px;
+}
+
+.header {
+    background-color: var(--tertiary-green);
+    color: white;
 }
 
 .wrapper {
