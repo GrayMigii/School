@@ -36,15 +36,15 @@ img {
     border-radius: 12px;
 }
 
-.header {
-    background-color: var(--tertiary-green);
-    color: white;
-}
-
 .wrapper {
     background-color: cadetblue;
     border-radius: 10px;
     padding: 10px;
+}
+
+.header {
+    background-color: var(--tertiary-green);
+    color: white;
 }
 
 .footer {
