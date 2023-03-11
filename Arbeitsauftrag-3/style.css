@@ -37,7 +37,7 @@ img {
 }
 
 .wrapper {
-    background-color: cadetblue;
+    background-color: var(--primary-green);
     border-radius: 10px;
     padding: 10px;
 }
