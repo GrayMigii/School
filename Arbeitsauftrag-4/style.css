@@ -1,0 +1,74 @@
+:root {
+    --primary-green: cadetblue;
+    --secondary-green: rgb(38, 110, 112);
+    --tertiary-green: rgb(14, 85, 86);
+}
+
+body {
+    padding: 20px;
+    font-family: verdana;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 0px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:active {
+    color: blue;
+}
+
+img {
+    height: 447px;
+    width: 640px; 
+    border-radius: 12px;
+}
+
+.wrapper {
+    background-color: var(--primary-green);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header {
+    background-color: var(--tertiary-green);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--secondary-green);
+}
+
+.nav {
+    display: flex;
+    gap: 20px;    
+    background-color:var(--secondary-green);
+}
+
+.nav > div {
+    padding: 12px 5px;
+    border-radius: 5px;
+}
+
+.nav > div:hover {
+    background-color: var(--primary-green);
+}
+
+.nav{
+    position: sticky;
+    top: 5px;
+}
