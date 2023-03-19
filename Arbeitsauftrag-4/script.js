@@ -1,6 +1,5 @@
 const icon = document.querySelector('#icon');
 const body = document.querySelector('body');
-let state = 'light';
 
 icon.addEventListener('click', () => {
     let class_list = icon.classList;
