@@ -85,3 +85,7 @@ img {
     font-size: 24px;
     margin-right: 5px;
 }
+
+.dark-mode {
+    background-color: #38444d;
+}
