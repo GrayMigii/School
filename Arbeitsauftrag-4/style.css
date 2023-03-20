@@ -95,3 +95,7 @@ button:hover {
 .dark-mode {
     background-color: #38444d;
 }
+
+#date {
+    font-size: 32px;
+}

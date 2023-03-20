@@ -1,5 +1,13 @@
 const icon = document.querySelector('#icon');
 const body = document.querySelector('body');
+const date = document.querySelector('#date');
+const currentDate = new Date();
+
+const day = currentDate.getDate();
+const month = currentDate.getMonth() + 1;
+const year = currentYear.getFullYear();
+
+date.textContent = `${day}/${month}/${year}`;
 
 icon.addEventListener('click', () => {
     let class_list = icon.classList;
